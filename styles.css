@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-
+  box-sizing: border-box;
   font-family: 'Spectral', serif;
 
   /* CSS HEX */
@@ -38,4 +38,48 @@ body {
 .hero h2 {
   margin-top: 8px;
   background-color: #BCB9BBff;
+}
+
+.activities {
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+}
+
+.activities-main-heading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.activity-column {
+  margin: 0;
+}
+
+.activity-heading {
+  margin: 5px 0;
+}
+
+.activity-description {
+  font-size: 16px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.activity-1-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.activity-2-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.activity-3-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
