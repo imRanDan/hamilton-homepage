@@ -11,7 +11,7 @@ body {
 }
 
 .hero {
-  background-image: url(/hamilton-homepage/images/hamilton-bg.jpg);
+  background-image: url(./images/hamilton-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
